@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<section class="presentacion__del__borde">
+
+<body>
+
+    <header class="header">
+        <img class="logo__alura" src="img/Logo.png" alt="Logo de Alura Latam">
+    </header>
+    <main class="contenido"> 
+        <section class="presentacion__titulo__principal">
+            <textarea class="presentacion__titulo" rows="10" cols="40" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h2>
+                    <img class="advertencia" src="img/exclamacion.png" alt="imagen de adventencia"> 
+                        <strong class="texto__secundario" >
+                            Solo letras minúsculas y sin acentos
+                        </strong>
+                </h2>
+            </div>
+        
+            <div class="presentacion__seleccion">
+                <button class="presentacion__boton__encriptar" type="button" onclick="encriptar">
+                    Encriptar
+                </button>
+                            
+                <button class="presentacion__boton__desencriptar" type="button" onclick="desencriptar">
+                    Desencriptar
+                </button>
+    
+            </div>
+        </section> 
+        
+        <section class="texto__ingresado">
+
+            <textarea class="presentacion__texto__ingresado" rows="10" cols="20" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+
+            <section class="botones__copia_pegue">
+            
+                <button class="boton__copiar__texto" type="button" onclick="copiar texto">
+                    Copiar Texto
+                </button>
+                <button class= "boton__pegar__texto" type="button" onclick="pegar texto">
+                    Pegar Texto
+                </button> 
+                
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <strong class="color__desarrollo">
+        <p>Desarrollado por Sandra Esquivel - Estudiante Alura Latam</p>
+        </strong>
+    </footer>
+    
+</body>
+
+</section>
+<script src="js.app.js"></script>
+</html>
